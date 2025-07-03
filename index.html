@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white">
+    <div class=" bg-gray-100 p-4 mx-auto w-3/4  mt-56">
+        <div class="bg-red-400 p-4 w-full text-center rounded">
+            <h1 class="text-lg font-bold mb-2">Enter Amount:</h1>
+            <form>
+                <input id="amount" type="text" class="p-2 rounded w-1/2" placeholder="Enter amount here" />
+                <div id="fromc" class="bg-blue-400 flex justify-between p-6 mx-auto w-[90%] mt-3">
+                    <div class="bg-yellow-50 m-2">
+                        <h2 class="text-lg font-bold mb-2">From:</h2>
+                        <img src="https://flagsapi.com/BE/shiny/64.png">
+                        <img src>
+                        <select class="dropdown">
+
+                        </select>
+                    </div>
+                    <div id="toc" class="bg-green-50 m-2">
+                        <h2 class="text-lg font-bold mb-2">To:</h2>
+                        <img src="https://flagsapi.com/BE/shiny/64.png">
+                        <select class="dropdown">
+
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <div class="mt-5 h-24">
+                <button id="converter"
+                    class="rounded-xl w-[50%] bg-blue-500 p-4 font-bold text-lg text-white hover: cursor-pointer">Convert</button>
+            </div>
+        </div>
+        <div id="ans" class="bg-green-200 text-center h-10">
+            <p class="font-bold text-lg">1 USD = BDT</p>
+        </div>
+    </div>
+
+
+    <script src="code.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
